@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(101, 101, 182);
+            color: aliceblue;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(66, 19, 110);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+       var n1 =  Number(window.prompt('Digite um numero: ')) //comando .prompt é sempre  string e por isso precisa converter para number.
+       var n2 = Number(window.prompt('Digite outro numero: '))//para converter em number, basta digitar antes da chamada do windows Number()
+       var s = n1 + n2 //caso queira converter de numro para string digit String(n) ou n.toString
+       window.alert(`A soma entre ${n1} e ${n2} é ${s}`)
+    </script>
+</body>
+</html>
